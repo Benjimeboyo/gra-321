@@ -2,6 +2,22 @@
 
 }
 
-h1 {
+body {
+		background-color: #3CB371;
+	}
 
+
+
+
+h1 {
+	font-family: Ariel;
+	color: #C71585;
+}
+
+
+
+
+ul{
+	font-family: Ariel;
+	color: #C71585;
 }
