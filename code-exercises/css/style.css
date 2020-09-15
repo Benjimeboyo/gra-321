@@ -5,3 +5,70 @@
 h1 {
 
 }
+
+.container {
+  background-image:
+    url(https://i.insider.com/5ef60a9c988ee32c6843e836?width=1100&format=jpeg&auto=webp);
+  background-size: cover;
+  height:700px;
+  margin: 0 auto;
+  width:70%;
+}
+
+h2 {
+  color: #3CB371;
+  font-size:52px;
+  position:relative;
+  text-align:center;
+  top:200px
+}
+
+button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #3CB371;
+  background-color: #C71585;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #ac3973}
+
+button:active {
+background-color: #ac3973;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
+
+
+h1 {
+  color: #fff;
+  font-size:52px;
+  position:relative;
+  text-align:left;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+  body {
+    background-color: #ff99ff;
+}
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: #cc99ff;
+}
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #99ccff;
+}
+}
