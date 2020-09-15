@@ -57,13 +57,13 @@ h1 {
 
 @media screen and (max-width: 1440px) {
   body {
-    background-color: #ff99ff;
+    background-color: ##3CB371;
 }
 }
 
 @media screen and (max-width: 1000px) {
   body {
-    background-color: #cc99ff;
+    background-color: #ac3973;
 }
 }
 
