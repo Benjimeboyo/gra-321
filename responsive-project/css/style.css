@@ -2,6 +2,217 @@
 
 }
 
-h1 {
 
+body {
+	}
+
+
+h1 {
+font-family: Segoe UI, sans-serif;
+font-size: 25px;
+font-weight: bold;
 }
+
+h2 {
+font-family: Segoe UI, sans-serif;
+font-size: 16.5px;
+font-weight: regular;
+}
+
+h3 {
+font-family: Segoe UI, sans-serif;
+font-size: 16px;
+font-weight: lighter;
+text-align: right;
+}
+
+h4 {
+font-family: Segoe UI, sans-serif;
+font-size: 16px;
+font-weight: lighter;
+color: ##737373;
+}
+
+h5 {
+font-family: Segoe UI, sans-serif;
+font-size: 16px;
+font-weight: regular;
+font-style: italic;
+text-align: center;
+}
+
+
+
+div.c {
+  text-align: right;
+}
+
+div.a {
+  text-align: center;
+}
+
+
+
+.logo{
+  margin-left: 121.2px;
+  margin-top: 18.6px;
+  margin-bottom: 17.5px;
+}
+
+
+
+button {
+  border: none;
+    font-family: segoe UI;
+    font-weight: bold;
+    font-size: 16.5;
+  color: #403F3F;
+  background-color: white;
+  padding:1em 2em 1em 2em;
+  width:100%;
+}
+
+.nav-buttons {
+  width: 100%;
+  background-color: transparent;
+  margin:20px 0;
+  display:block;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-width:300px;
+}
+
+.nav-buttons a {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+
+
+.food-icon {
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-top: 43px;
+}
+
+
+.menu-item {
+  margin-bottom: 112px;
+  margin-left: 0px;
+	margin-right: 22px;
+  background-color: transparent;
+  display: inline-block;
+}
+
+.menu-item-price {
+  margin-bottom: 112px;
+  margin-left: 22px;
+  background-color: transparent;
+  display: inline-block;
+  align-items: right;
+}
+
+.menu-item-2 {
+  margin-bottom: 0px;
+  margin-left: 0px;
+	margin-right: 22px;
+  background-color: transparent;
+  display: inline-block;
+}
+
+.menu-item-price-2 {
+  margin-bottom: 112px;
+  margin-left: 22px;
+  background-color: transparent;
+  display: inline-block;
+	align-items: right;
+}
+
+.menu-item-extra {
+	margin-bottom: 112px;
+  margin-left: 0px;
+	margin-right: 22px;
+  background-color: transparent;
+  display: inline-block;
+}
+
+.group-of-2 {
+  margin-bottom: 0px;
+  margin-left: 8px;
+  background-color: transparent;
+  display: inline-block;
+}
+
+
+
+.find-charlie {
+	margin-left: 19px;
+}
+
+.location {
+  margin-bottom: 20px;
+  margin-left: 70px;
+	margin-top: 42px;
+  background-color: transparent;
+  display: inline-block;
+	text-align: center;
+	column-count: 1;
+}
+
+.location-2 {
+  margin-bottom: 42px;
+}
+
+.social {
+	margin-left: 68px;
+	margin-right: 42px;
+	margin-top: 86px;
+	margin-bottom: 28px;
+	align-items: center;
+	column-count: 3;
+	column-gap: 42px;
+}
+
+
+
+
+
+
+
+
+
+/*Desktop Styles*/
+@media only screen and (min-width: 700px) {
+
+  .button {
+            padding: 1em 5em 1em 5em;
+            margin-top: 15px;
+            margin-right: 25px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+      display: inline-block;
+      width: 20%;
+      }
+
+
+
+      .nav-buttons {
+            width: 100%;
+            background-color: transparent; /*just here to help the visual, you can remove this */
+            margin:20px 0;
+            display:flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            min-width:300px;
+          }
+
+
+
+          .nav-buttons a {
+          display:inline-block;
+          width: 20%;
+          margin-top: 20px;
+          }
+        }
