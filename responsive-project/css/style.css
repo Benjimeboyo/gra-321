@@ -54,9 +54,10 @@ div.a {
 
 
 .logo{
-  margin-left: 121.2px;
+
   margin-top: 18.6px;
   margin-bottom: 17.5px;
+	text-align: center;
 }
 
 
@@ -120,6 +121,7 @@ button {
 	margin-right: 22px;
   background-color: transparent;
   display: inline-block;
+	background-color: transparent;
 }
 
 .menu-item-price-2 {
@@ -128,6 +130,14 @@ button {
   background-color: transparent;
   display: inline-block;
 	align-items: right;
+	background-color: transparent;
+}
+
+.hot-coffee-container {
+	display:flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
 }
 
 .menu-item-extra {
@@ -138,12 +148,29 @@ button {
   display: inline-block;
 }
 
+
+
+
+
 .group-of-2 {
   margin-bottom: 0px;
   margin-left: 8px;
   background-color: transparent;
-  display: inline-block;
+  display: flex;
 }
+
+.group-1, .group-2 {
+  background-color: transparent;
+	margin: 10px;
+}
+
+.name-price-container {
+  background-color: transparent;
+  display: flex;
+	padding: 20px;
+}
+
+
 
 
 
@@ -163,20 +190,25 @@ button {
 
 .location-2 {
   margin-bottom: 42px;
+	text-align: center;
 }
+
+
 
 .social {
-	margin-left: 68px;
-	margin-right: 42px;
-	margin-top: 86px;
-	margin-bottom: 28px;
-	align-items: center;
-	column-count: 3;
-	column-gap: 42px;
+	display: inline-block;
+	background-color: pink;
+	justify-content: space-around;
+	margin: auto;
+	text-align: center;
+
+
+
 }
 
+.social img {
 
-
+}
 
 
 
@@ -209,10 +241,38 @@ button {
           }
 
 
-
-          .nav-buttons a {
+      .nav-buttons a {
           display:inline-block;
           width: 20%;
           margin-top: 20px;
           }
+
+			.location {
+					  margin-bottom: 20px;
+					  margin-left: 70px;
+						margin-top: 42px;
+					  background-color: transparent;
+					  display: inline-block;
+						text-align: center;
+						column-count: 1;
+					}
+
+			.location-2 {
+					  margin-bottom: 42px;
+					}
+
         }
+
+
+				.social {
+					display: block;
+  				margin-left: auto;
+  				margin-right: auto;
+
+				}
+
+
+
+.social img {
+
+}
