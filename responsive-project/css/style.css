@@ -197,7 +197,7 @@ button {
 
 .social {
 	display: inline-block;
-	background-color: pink;
+	background-color: transparent;
 	justify-content: space-around;
 	margin: auto;
 	text-align: center;
